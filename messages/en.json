@@ -1,0 +1,90 @@
+{
+    "HomePage":{
+        "title":"Welcome",
+        "about":"This is English Site"
+    },
+    "Navbar":{
+        "item1":"Product",
+        "item2":"Solution",
+        "item3":"Resource",
+        "item4":"Enterprise",
+        "item5":"Pricing",
+        "item6":"Contact Sales",
+        "item7":"Login"
+    },
+    
+        "Dropdown":{
+          "drop1":"Digital",
+          "drop2":"Electronics",
+          "drop3":"Wooden",
+          "drop4":"Smartphone",
+          "drop5":"Programming",
+          "drop6":"Tech/IT",
+          "drop7":"Digital Items",
+          "drop8":" Web App",
+          "drop9":"Internet",
+          "drop10":"Local-Market",
+          "drop11":"Facebook",
+          "drop12":"Youtube"
+        },
+       "login":{
+          "heading":"Welcome to BuyIT",
+          "tab1":"Login",
+          "tab2":"Signup",
+          "tab3":"Forgot",
+          "email":"Email",
+          "password":"Password",
+          "name":"Name",
+          "agree":"I agree to the terms & condition.",
+          "sendLink":"Send Reset Link",
+          "resetLinkDetails":" We've sent a password reset link to your email. Please check your inbox and follow the instructions to reset  your password",
+          "agreeterm":"By clicking 'agree', you agree to our",
+          "terms":"Terms of Use",
+          "privacy":"Privacy Policy",
+          "or":"Or",
+          "googleLogin":"Login with Google"
+        },
+        "main":{
+          "heading":"Take ideas from better to best",
+          "para":"BuyIT is your team's visual platform to connect, collaborate, and create — together.",
+          "collaborate":"Collaborate with your team within minutes",
+          "reveiw":"Based on 5149+ reviews:"
+        },
+        "userLogo":{
+          "trust":"Trusted by 45M+ users"
+        },
+        "collaborate":{
+          "mainTitle":"Collaborate without constraints",
+          "title1":"Free forever",
+          "title2":"Easy integrations",
+          "title3":"Security first",
+          "desc1":"Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates Signing up with your work email lets you bring in your team faster. See our pricing plans for more features.",
+          "desc2":"Miro has 100+ powerful integrations with tools you already use like G Suite, Slack, and Jira, so your workflow is seamless. View the full list in our Marketplace .",
+          "desc3":"We treat your data like you would — with the utmost care. We follow industry-leading security standards and give you tools to protect intellectual property. Learn more at our Trust Center .",
+          "btn1":"See Price",
+          "btn2":"See List",
+          "btn3":"Trust Center"
+          
+        },
+        "connectTools":{
+          "title":"Connect your tools, close your tabs",
+          "desc":"Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love.",
+          "btn":"Learn more"
+        },
+        "workWay":{
+          "heading":"Built for the way you work",
+          "title1":"Brainstorming",
+          "title2":"Diagramming",
+          "title3":"Meetings & Workshops",
+          "title4":"Scrum Events",
+          "title5":"Mapping",
+          "title6":"Research & Design",
+          "title7":"Strategic Planning",
+          "shortdesc1":"Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.",
+          "fulldesc1":"Brainstorming is a creative thinking technique used to generate a wide range of ideas or solutions to a particular problem in a short amount of time. It is often practiced in groups but can also be done individually. The core idea behind brainstorming is to encourage free thinking without immediate criticism or judgment, allowing participants to express their thoughts openly, no matter how unusual or unconventional they may seem. This method was popularized by advertising executive Alex F. Osborn in the 1940s, who believed that separating idea generation from evaluation could lead to more innovative outcomes. During a brainstorming session, participants are encouraged to focus on quantity over quality at first, since a larger pool of ideas increases the likelihood of finding an effective or original solution. Techniques such as mind mapping, rapid listing, or using prompts can help stimulate creativity and overcome mental blocks. Brainstorming thrives in an environment where people feel safe to share their ideas without fear of embarrassment or rejection. Later, these raw ideas can be analyzed, refined, and combined to form practical strategies or solutions. This process is widely used in business meetings, classroom projects, design thinking workshops, and even personal goal setting. The key principles include deferring judgment, welcoming unusual ideas, building upon the ideas of others, and aiming for a large quantity of ideas before narrowing them down. While brainstorming is a powerful tool, it works best when guided by a clear objective, a set time limit, and an atmosphere of trust and openness. In today’s digital age, brainstorming has evolved to include virtual collaboration tools, enabling people from different parts of the world to share and develop ideas together. Ultimately, brainstorming is not just about producing ideas—it’s about fostering a mindset of creativity, collaboration, and problem-solving that can lead to innovative and effective results.",
+          "link":"Learn more"
+        }
+    
+
+}
+
