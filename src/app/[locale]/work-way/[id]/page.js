@@ -18,37 +18,37 @@ function WorkwayDetails() {
             },
               {  id:"2",
                 title:`${workway("title2")}`,
-                fullDesc:`${workway("fulldesc1")}`,
+                fullDesc:`${workway("fulldesc2")}`,
                 src:"/images/workway/workway2.png",
                   moreimg:["/images/workway/workway2.png","/images/workway/workway4.png","/images/workway/workway3.png",]
             },
               { id:"3",
                 title:`${workway("title3")}`,
-                fullDesc:`${workway("fulldesc1")}`,
+                fullDesc:`${workway("fulldesc3")}`,
                 src:"/images/workway/workway8.png",
                 moreimg:["/images/workway/workway8.png","/images/workway/workway4.png","/images/workway/workway3.png",]
             },
               { id:"4",
                 title:`${workway("title4")}`,
-              fullDesc:`${workway("fulldesc1")}`,
+              fullDesc:`${workway("fulldesc4")}`,
                 src:"/images/workway/workway9.png",
                 moreimg:["/images/workway/workway9.png","/images/workway/workway4.png","/images/workway/workway3.png",]
             },
               { id:"5",
                 title:`${workway("title5")}`,
-                fullDesc:`${workway("fulldesc1")}`,
+                fullDesc:`${workway("fulldesc5")}`,
                 src:"/images/workway/workway5.png",
                   moreimg:["/images/workway/workway5.png","/images/workway/workway4.png","/images/workway/workway3.png",]
             },
               { id:"6",
                 title:`${workway("title6")}`,
-                fullDesc:`${workway("fulldesc1")}`,
+                fullDesc:`${workway("fulldesc6")}`,
                 src:"/images/workway/workway6.png",
                   moreimg:["/images/workway/workway6.png","/images/workway/workway4.png","/images/workway/workway3.png",]
             },
               { id:"7",
                 title:`${workway("title7")}`,
-                fullDesc:`${workway("fulldesc1")}`,
+                fullDesc:`${workway("fulldesc7")}`,
                 src:"/images/workway/workway10.png",
                   moreimg:["/images/workway/workway10.png","/images/workway/workway4.png","/images/workway/workway3.png",]
             }

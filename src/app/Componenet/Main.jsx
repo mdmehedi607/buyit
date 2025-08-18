@@ -8,7 +8,7 @@ import LoginDialoge from "./LoginDialoge";
 import Text from "./Text";
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
-import Image from 'next/image'
+import Image from "next/image";
 
 function Main() {
   const [dialogeOpen, setDialogeOpen] = useState(false);
@@ -69,17 +69,35 @@ function Main() {
             <Stack spacing={1}>
               <Rating name="half-rating" defaultValue={4.5} precision={0.5} />
             </Stack>
-            <Text as="span" className="text-xs md:text-sm text-gray-600 dark:text-gray-100">{tmain("reveiw")}</Text>
+            <Text
+              as="span"
+              className="text-xs md:text-sm text-gray-600 dark:text-gray-100"
+            >
+              {tmain("reveiw")}
+            </Text>
           </div>
-          <div className='flex justify-center items-center gap-2'>
-            <Image src='/images/Vector.svg' alt='vector' width={30} height={30} className="dark:bg-white rounded-full p-0.5"/>
-            <Text as="span" className='text-sm md:text-lg font-bold'>Get App </Text>
+          <div className="flex justify-center items-center gap-2">
+            <Image
+              src="/images/Vector.svg"
+              alt="vector"
+              width={30}
+              height={30}
+              className="dark:bg-white rounded-full p-0.5"
+            />
+            <Text as="span" className="text-sm md:text-lg font-bold">
+              Get App{" "}
+            </Text>
           </div>
-          
         </div>
       </div>
-      <div className='flex md:flex-4 justify-center items-center'>
-        <Image src='/images/main.png' width={600} height={600} alt='Main image' className="object-cover w-full h-full"/>
+      <div className="flex md:flex-4 justify-center items-center">
+        <Image
+          src="/images/main.png"
+          width={600}
+          height={600}
+          alt="Main image"
+          className="object-cover w-full h-full"
+        />
       </div>
     </section>
   );

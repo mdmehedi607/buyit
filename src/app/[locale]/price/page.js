@@ -3,7 +3,7 @@ import { BadgeCheck, Check, X } from "lucide-react"
 import { Button } from "@/components/ui/button";
 import { motion } from 'framer-motion';
 import Link from 'next/link'
-import AnimatedButton from "@/app/Componenet/AnimatedButton";
+
 
 export default function Price(){
     const pricelist=[
@@ -85,7 +85,6 @@ export default function Price(){
              </div>
             )}
           </div>
-          <AnimatedButton/>
         </div>
     )
 }

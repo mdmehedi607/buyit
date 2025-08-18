@@ -38,14 +38,14 @@ function Header() {
             <ChevronDown className='group-hover:rotate-180 transition dark:text-gray-100'/>
             </Button>
             <div className="absolute hidden group-hover:flex flex-col bg-white dark:bg-gray-950 shadow-lg rounded px-4 py-4 mt-1 ">
-              <Text as={Link} href="/blog" className="flex  items-center gap-2 text-gray-700 dark:text-gray-100 font-semibold px-6 py-2  hover:bg-gray-100 dark:hover:bg-gray-800 rounded border-b"><Activity className='w-3 h-3 font-semibold dark:text-gray-100'/> {tDrop('drop1')}</Text>
-              <Text as={Link} href="/blog" className="flex  items-center gap-2 text-gray-700 dark:text-gray-100 font-semibold px-6 py-2  hover:bg-gray-100 dark:hover:bg-gray-800 rounded border-b"><Cable className='w-3 h-3 font-semibold dark:text-gray-100'/>
+              <Text as={Link} href="/products/digital" className="flex  items-center gap-2 text-gray-700 dark:text-gray-100 font-semibold px-6 py-2  hover:bg-gray-100 dark:hover:bg-gray-800 rounded border-b"><Activity className='w-3 h-3 font-semibold dark:text-gray-100'/> {tDrop('drop1')}</Text>
+              <Text as={Link} href="/products/electronics" className="flex  items-center gap-2 text-gray-700 dark:text-gray-100 font-semibold px-6 py-2  hover:bg-gray-100 dark:hover:bg-gray-800 rounded border-b"><Cable className='w-3 h-3 font-semibold dark:text-gray-100'/>
               {tDrop('drop2')}
               </Text>
-              <Text as={Link} href="/blog" className="flex  items-center gap-2 text-gray-700 dark:text-gray-100 font-semibold px-6 py-2  hover:bg-gray-100 dark:hover:bg-gray-800 rounded border-b"><Fence className='w-3 h-3 font-semibold dark:text-gray-100'/> 
+              <Text as={Link} href="/products/wooden" className="flex  items-center gap-2 text-gray-700 dark:text-gray-100 font-semibold px-6 py-2  hover:bg-gray-100 dark:hover:bg-gray-800 rounded border-b"><Fence className='w-3 h-3 font-semibold dark:text-gray-100'/> 
               {tDrop('drop3')}
               </Text>
-             <Text as={Link} href="/blog" className="flex  items-center gap-2 text-gray-700 dark:text-gray-100 font-semibold px-6 py-2  hover:bg-gray-100 dark:hover:bg-gray-800 rounded border-b"><TabletSmartphone className='w-3 h-3 font-semibold dark:text-gray-100'/>
+             <Text as={Link} href="/products/smartphone" className="flex  items-center gap-2 text-gray-700 dark:text-gray-100 font-semibold px-6 py-2  hover:bg-gray-100 dark:hover:bg-gray-800 rounded border-b"><TabletSmartphone className='w-3 h-3 font-semibold dark:text-gray-100'/>
              {tDrop('drop4')}
              </Text>
             </div>
