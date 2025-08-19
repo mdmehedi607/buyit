@@ -90,8 +90,25 @@
           "fulldesc7":"Strategic Planning is the process of defining clear goals, identifying priorities, and creating actionable steps to guide an organization toward long-term success. It involves analyzing current strengths and weaknesses, understanding market opportunities, and anticipating potential challenges. Through strategic planning, businesses can align resources, improve decision-making, and stay focused on their vision while adapting to changes in the environment. Our website offers expert Strategic Planning services to help you set a clear direction, develop effective strategies, and achieve sustainable growth with confidence.",
           "link":"Learn more"
         },
+
         "cardSlider":{
           "specialOffer":"SPECIAL OFFER"
+        },
+        "trustSection":{
+          "heading":" Why companies large and small trust BuyIT",
+          "desc":"Contact Sales to request a demo",
+          "title1":"ISO",
+          "title2":"#1",
+          "title3":"99%",
+          "title4":"1000+",
+          "title5":"45M",
+          "title6":"100+",
+          "details1":"ISO-27001 enterprise-grade security compliant",
+          "details2":"Visual Collaboration Platform on G2",
+          "details3":"of the Fortune 100 are customers",
+          "details4":"community- and expert-built templates",
+          "details5":"users around the world",
+          "details6":"integrations with technology partners"
         }
     
 

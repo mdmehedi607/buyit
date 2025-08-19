@@ -5,6 +5,7 @@ import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import Header from "../Componenet/Header";
+import Footer from "../Componenet/Footer";
 
 
 export const metadata = {
@@ -24,6 +25,7 @@ export default async function RootLayout({ children, params}) {
           <NextIntlClientProvider lang={locale}>
              <Header/>
             {children}
+            <Footer/>
           </NextIntlClientProvider>
   );
 }

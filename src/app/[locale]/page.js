@@ -6,6 +6,7 @@ import Logoslide from "../Componenet/UserLogo";
 import Collaborate from "../Componenet/Collaborate";
 import FloatingMenu from "../Componenet/FloatingMenu";
 import Workway from "../Componenet/Workway";
+import TrustSection from "../Componenet/TrustSection";
 
 export default function Home() {
     const t = useTranslations('HomePage');
@@ -17,6 +18,7 @@ export default function Home() {
     <Collaborate/>
     <FloatingMenu/>
     <Workway/>
+    <TrustSection/>
    </main>
   );
 }

@@ -126,7 +126,7 @@ useEffect(() => {
                   className="h-full w-full object-cover group-hover:scale-120 overflow-hidden transition duration-400 "
                 />
             </div>
-                <div className="flex flex-col justify-center items-center  bg-white dark:bg-neutral-800 p-3 w-full absolute translate-y-16 bottom-1 group-hover:-translate-y-0 transition-transform duration-600 ">
+                <div className="flex flex-col justify-center items-center  bg-white dark:bg-neutral-800 p-3 w-full absolute translate-y-16 bottom-1 group-hover:-translate-y-0 group-active:-translate-y-0   transition-transform duration-600 ">
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                     {s.title}
                   </h3>
@@ -135,10 +135,10 @@ useEffect(() => {
                   </p>
                   <div className='flex justify-center items-center gap-4 pt-5 '>
                      <Link href='/'>
-                    <button className='w-15 h-12 rounded-md bg-neutral-900 hover:bg-orange-500  cursor-pointer flex items-center translate-y-10 group-hover:translate-y-0  transition-all duration-700 delay-100 justify-center opacity-0 group-hover:opacity-100'><Search className="w-6 h-6 text-gray-200 dark:text-white"/></button>
+                    <button className='w-15 h-12 rounded-md bg-neutral-900 hover:bg-orange-500  cursor-pointer flex items-center translate-y-10 group-hover:translate-y-0 group-active:translate-y-0  transition-all duration-700 delay-100 justify-center opacity-0 group-hover:opacity-100 group-active:opacity-100'><Search className="w-6 h-6 text-gray-200 dark:text-white"/></button>
                        </Link>
                      <Link href='/'>
-                    <button  className='w-15 h-12 rounded-md bg-neutral-900 hover:bg-orange-500 flex items-center justify-center translate-y-10 group-hover:translate-y-0 transition-all cursor-pointer duration-900 delay-150 opacity-0 group-hover:opacity-100'><ShoppingCart className="w-6 h-6 text-gray-200 dark:text-white"/></button>
+                    <button  className='w-15 h-12 rounded-md bg-neutral-900 hover:bg-orange-500 flex items-center justify-center translate-y-10 group-hover:translate-y-0 group-active:translate-y-0 transition-all cursor-pointer duration-900 delay-150 opacity-0 group-hover:opacity-100 group-active:opacity-100'><ShoppingCart className="w-6 h-6 text-gray-200 dark:text-white"/></button>
                     </Link>
                     
                   </div>
