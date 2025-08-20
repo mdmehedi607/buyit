@@ -30,7 +30,7 @@ const socialItems= [
 
 function Footer() {
   return (
-    <footer className='flex flex-col w-screen md:flex-row justify-center items-center gap-5 md:gap-20 px-8 md:px-40 py-10 bg-gray-950'>
+    <footer className='flex flex-col w-full md:flex-row justify-center items-center gap-5 md:gap-20 px-8 md:px-40 py-10 bg-gray-950'>
       <div className='flex flex-col gap-5 md:gap-8 flex-1 justify-center items-baseline'>
          <div className="flex justify-center items-center">
          <Link href='/' className="flex justify-center items-center">
@@ -49,15 +49,15 @@ function Footer() {
       <div className='flex flex-2 flex-col md:flex-row justify-center items-baseline gap-5 md:gap-15'>
         <div className='flex flex-col flex-1 justify-baseline items-baseline gap-2 '>
             <h5 className='text-white text-lg font-semibold'>Company</h5>
-           <Link href='/about' className='text-[16px] text-gray-300'>About Us</Link>
+           <Link href='/about-us' className='text-[16px] text-gray-300'>About Us</Link>
             <Link href='/blog' className='text-[16px] text-gray-300'>Blog</Link>
-             <Link href='/contact' className='text-[16px] text-gray-300'>Contact Us</Link>
+             <Link href='/contact-us' className='text-[16px] text-gray-300'>Contact Us</Link>
               <Link href='/price' className='text-[16px] text-gray-300'>Pricing</Link>
                <Link href='/testmonial' className='text-[16px] text-gray-300'>Testmonials</Link>
         </div>
         <div className='flex flex-col flex-1 justify-baseline items-baseline gap-2 '>
             <h5 className='text-white text-lg font-semibold'>Support</h5>
-           <Link href='/help' className='text-[16px] text-gray-300'>Help Center</Link>
+           <Link href='/help-center' className='text-[16px] text-gray-300'>Help Center</Link>
             <Link href='/terms-condition' className='text-[16px] text-gray-300'>Terms & Condition</Link>
              <Link href='/legal' className='text-[16px] text-gray-300'>Legal</Link>
               <Link href='/privacy-policy' className='text-[16px] text-gray-300'>Privacy Policy</Link>

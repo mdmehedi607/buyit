@@ -93,10 +93,10 @@ function Main() {
       <div className="flex md:flex-4 justify-center items-center">
         <Image
           src="/images/main.png"
-          width={600}
-          height={600}
+          width={580}
+          height={350}
           alt="Main image"
-          className="object-cover w-full h-full"
+        
         />
       </div>
     </section>

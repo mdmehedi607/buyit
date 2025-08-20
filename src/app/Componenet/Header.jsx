@@ -27,7 +27,7 @@ function Header() {
   return (
     <div className='flex justify-baseline w-full items-center gap-5  py-3 bg-white dark:bg-neutral-900 border-b border-gray-200 dark:border-gray-600 fixed top-0 z-10' >
         <div className='flex justify-center items-center pl-3 md:pl-10'>
-          <Image src='/images/aqua.png' width={100} height={40} alt='BuyIt Logo'/>
+          <Link href='/'><Image src='/images/aqua.png' width={100} height={40} alt='BuyIt Logo'/></Link>
         </div>
         {/*Desktop*/}
          <div className='hidden lg:flex justify-between items-center w-full pr-10'>
@@ -91,7 +91,7 @@ function Header() {
              </Text>
             </div>
           </div>
-        <Text as={Link} href="/contact" className="px-4 py-2 text-gray-800 dark:text-gray-100 text-md font-semibold  hover:text-gray-900">
+        <Text as={Link} href="/enterprise" className="px-4 py-2 text-gray-800 dark:text-gray-100 text-md font-semibold  hover:text-gray-900">
          {t('item4')} 
         </Text>
         <Text as={Link} href="/price" className="px-4 py-2 text-gray-800 dark:text-gray-100 text-md font-semibold hover:text-gray-900">
@@ -101,7 +101,7 @@ function Header() {
          </div>
          <div className='hidden lg:flex justify-center items-center gap-5'>
            <Switcher/> 
-           <Text as={Link} href='/contact-sales' className='font-semibold text-md text-gray-900 dark:text-gray-100'>{t("item6")}</Text>
+           <Text as={Link} href='/contact-us' className='font-semibold text-md text-gray-900 dark:text-gray-100'>{t("item6")}</Text>
            <Button variant='secondary' className='flex justify-center items-center text-md px-5 bg-blue-600 hover:bg-blue-700 text-gray-100 dark:bg-transparent dark:hover:bg-gray-200 dark:hover:text-gray-900 dark:border dark:border-gray-100 dark:text-gray-100 font-semibold cursor-pointer' onClick={()=>setDialogeOpen(!dialogeOpen)} ><Text>{t("item7")}</Text></Button>
            <LoginDialoge dialogeopen={dialogeOpen} setdialogeopen={setDialogeOpen}/>
            <ThemeToggle/>
@@ -221,12 +221,13 @@ function Header() {
              </AnimatePresence>
           </div>
 
-           <Text as={Link} href="/contact" className="px-4 py-2 text-gray-800 dark:text-gray-100 text-md font-semibold  hover:text-gray-900 border-b">
+           <Text as={Link} href="/enterprise" className="px-4 py-2 text-gray-800 dark:text-gray-100 text-md font-semibold  hover:text-gray-900 border-b">
          {t('item4')} 
         </Text>
-        <Text as={Link} href="/price" className="px-4 py-2 text-gray-800 dark:text-gray-100 text-md font-semibold hover:text-gray-900">
+        <Text as={Link} href="/price" className="px-4 py-2 text-gray-800 dark:text-gray-100 text-md font-semibold hover:text-gray-900 border-b">
         {t('item5')} 
         </Text>
+        <Text as={Link} href='/contact-us' className='px-4 py-2 text-gray-800 dark:text-gray-100 text-md font-semibold hover:text-gray-900 border-b'>{t("item6")}</Text>
         <Button variant='secondary' className='flex justify-center items-center text-md px-5 bg-blue-600 hover:bg-blue-700 text-gray-100 dark:bg-transparent dark:hover:bg-gray-200 dark:hover:text-gray-900 dark:border dark:border-gray-100 dark:text-gray-100 font-semibold cursor-pointer' onClick={()=>setDialogeOpen(!dialogeOpen)} ><Text>{t("item7")}</Text></Button>
         </div>
      
